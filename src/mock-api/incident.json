@@ -1,9 +1,13 @@
 {
-  "status": true,
-  "data": {
-    "event_name": "Sample Event",
-    "event_source": "Sample source",
-    "event_details": "Sample Details",
-    "event_type": "Warning"
+  "uri": "api/incident/:id",
+  "method": "get",
+  "response": {
+    "status": true,
+    "data": {
+      "event_name": "Sample Event",
+      "event_source": "Sample source",
+      "event_details": "Sample Details",
+      "event_type": "Warning"
+    }
   }
 }

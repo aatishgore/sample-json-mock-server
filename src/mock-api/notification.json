@@ -1,7 +1,11 @@
 {
-  "status": true,
-  "data": {
-    "warning": 2,
-    "error": 1
+  "uri": "api/notification",
+  "method": "get",
+  "response": {
+    "status": true,
+    "data": {
+      "warning": 2,
+      "error": 1
+    }
   }
 }

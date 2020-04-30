@@ -6,7 +6,7 @@ Define different type of api in src/mock-api folder
 
 Sample
 
-````{
+```{
   "uri": "api/incident/:id",
   "method": "get",
   "response": {
@@ -18,8 +18,8 @@ Sample
       "event_type": "Warning"
     }
   }
-}```
-````
+}
+```
 
 ## TODO
 

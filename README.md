@@ -38,6 +38,14 @@ Sample
 }
 ```
 
+Generating error response
+
+![alt text](https://raw.githubusercontent.com/aatishgore/sample-json-mock-server/master/screenshots/manage-error.png "Handling it with header params")
+
+Sample screen
+
+![alt text](https://raw.githubusercontent.com/aatishgore/sample-json-mock-server/master/screenshots/output.png "Handling it with header params")
+
 ## TODO
 
 #### mock socket connection

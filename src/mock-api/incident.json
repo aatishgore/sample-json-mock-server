@@ -1,6 +1,14 @@
 {
-  "uri": "api/incident/:id",
+  "uri": "/api/incident/:id",
   "method": "get",
+  "request": {
+    "filter": {
+      "name": "Sample"
+    }
+  },
+  "headers": {
+    "Authorization": "Bearer <token>"
+  },
   "response": {
     "status": true,
     "data": {

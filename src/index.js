@@ -11,7 +11,11 @@ fs.readdirSync(mockFolder).forEach((file) => {
   let data = require(mockFolder + file);
   // console.log(data);
   let api = {};
-  api[data.method] = data.response;
+  api[data.method] = {};
+  api[data.method]["response"] = data.response;
+  if (data.request !== undefined) api[data.method]["request"] = data.request;
+  if (data.headers !== undefined) api[data.method]["headers"] = data.headers;
+
   serverData[data.uri] = api;
 });
 

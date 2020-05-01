@@ -1,5 +1,5 @@
 {
-  "uri": "api/notification",
+  "uri": "/api/notification",
   "method": "get",
   "response": {
     "status": true,

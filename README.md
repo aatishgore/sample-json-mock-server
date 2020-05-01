@@ -8,8 +8,16 @@ Sample
 
 ```
 {
-  "uri": "api/incident/:id",
+  "uri": "/api/incident/:id",
   "method": "get",
+  "request": {
+    "filter": {
+      "name": "Sample"
+    }
+  },
+  "headers": {
+    "Authorization": "Bearer <token>"
+  },
   "response": {
     "status": true,
     "data": {
@@ -23,9 +31,5 @@ Sample
 ```
 
 ## TODO
-
-#### Adding header
-
-#### adding authorization
 
 #### mock socket connection

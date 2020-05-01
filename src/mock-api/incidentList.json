@@ -1,5 +1,5 @@
 {
-  "uri": "api/incident/",
+  "uri": "/api/incident/",
   "method": "get",
   "response": {
     "status": true,

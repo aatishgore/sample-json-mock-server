@@ -9,25 +9,29 @@
         "event_name": "Sample Event",
         "event_source": "Sample source",
         "event_details": "Sample Details",
-        "event_type": "Warning"
+        "event_type": "Warning",
+        "ticket_no": "1234"
       },
       {
         "event_name": "Sample Event",
         "event_source": "Sample source",
         "event_details": "Sample Details",
-        "event_type": "Error"
+        "event_type": "Error",
+        "ticket_no": "1234"
       },
       {
         "event_name": "Sample Event",
         "event_source": "Sample source",
         "event_details": "Sample Details",
-        "event_type": "Warning"
+        "event_type": "Warning",
+        "ticket_no": "1234"
       },
       {
         "event_name": "Sample Event",
         "event_source": "Sample source",
         "event_details": "Sample Details",
-        "event_type": "Error"
+        "event_type": "Error",
+        "ticket_no": "1234"
       }
     ]
   }

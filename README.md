@@ -1,5 +1,13 @@
 # sample-json-mock-server
 
+Requirement: Latest [Node](https://nodejs.org/en/) version
+
+To start mock server run
+
+```
+npm start
+```
+
 Generate mock api based on json structure
 
 Define different type of api in src/mock-api folder

@@ -1,6 +1,7 @@
 {
   "uri": "/api/incident/",
   "method": "get",
+  "headers": {},
   "response": {
     "status": true,
     "data": [

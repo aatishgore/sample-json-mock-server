@@ -13,8 +13,10 @@ fs.readdirSync(mockFolder).forEach((file) => {
   if (data.headers !== undefined) api[data.method]["headers"] = data.headers;
   if (data.responseError !== undefined)
     api[data.method]["responseError"] = data.responseError;
+  
+    api[data.method]["uri"] = data.uri;
 
-  serverData[data.uri] = api;
+  serverData[i] = api;
 });
 
 const app = server(serverData, 8000, "localhost"); // Start the server with a JSON object;
